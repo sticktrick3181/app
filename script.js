@@ -38,8 +38,19 @@ const account5 = {
   interestRate: 1,
   pin: 5555,
 };
-
-const arr = [account1, account2, account3, account4, account5];
+const account6 = {
+  owner: 'Arshiya Thakur',
+  movements: [200, 4050, -400, 30, -650, -130, 70, 1300],
+  interestRate: 1.2, // %
+  pin: 6666,
+};
+const account7 = {
+  owner: 'Ishaan Kalia',
+  movements: [20, 450, -400, 3000, -650, -130, 70, 1300],
+  interestRate: 1.2, // %
+  pin: 7777,
+};
+const arr = [account1, account2, account3, account4, account5 ,account6 ,account7];
 // console.log(arr.slice(-1));
 // console.log(account1.movements.slice(-1));
 
@@ -55,7 +66,7 @@ for (const { owner } of arr) {
 
 // console.log(arr);
 
-const accounts = [account1, account2, account3, account4, account5];
+const accounts = [account1, account2, account3, account4, account5,account6 ,account7];
 
 // Elements
 const labelWelcome = document.querySelector('.welcome');
