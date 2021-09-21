@@ -196,7 +196,7 @@ btnLogin.addEventListener('click', function (e) {
         labelSumOut.textContent = Math.abs(out) + '€';
         labelSumInterest.textContent = interestForCurrOwner + '€';
         document
-          .querySelector('.movements')
+          .querySelector('.movements__row')
           .insertAdjacentHTML('afterbegin', html);
       });
     }
